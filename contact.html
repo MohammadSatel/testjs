@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contact Us</title>
+  <style>
+    title {
+        text-align: center;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 0.5rem;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1rem;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .animal {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+
+    .animal img {
+      max-width: 150px;
+      margin-right: 1rem;
+    }
+
+    /* Added CSS colors */
+    #home {
+      background-color: #f9f9f9;
+      padding: 1rem;
+    }
+
+    #animals {
+      background-color: #fff3d9;
+      padding: 1rem;
+    }
+
+    #about {
+      background-color: #cfe2f3;
+      padding: 1rem;
+    }
+
+    #contact {
+      background-color: #d9f9e0;
+      padding: 1rem;
+    }
+  </style>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+</head>
+
+<body>
+  <header>
+    <br>
+    <h1 class="animate__animated animate__heartBeat animate__repeat-3">Contact Us</h1>
+    <br>
+  </header>
+
+  <nav>
+    <a href="index.html">Homepage</a>
+    <a href="animals.html">Animals</a>
+    <a href="pettingsection.html">Petting Section</a>
+    <a href="contact.html">Contact</a>
+    <br>
+  </nav>
+  <br>
+  <section id="home">
+    <h2 style="text-align: center;">Feel free to contact us anytime!</h2>
+    <p style="text-align: center;">We typically reply within 1 working days!</p>
+
+<p><form class="row g-3 needs-validation" style="padding-top: 1cm; padding-left: 5cm; padding-right: 5cm; padding-bottom: 1cm;" novalidate>
+  <div class="col-md-4">
+    <label for="validationCustom01" class="form-label">First name</label>
+    <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustom02" class="form-label">Last name</label>
+    <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustomUsername" class="form-label">Username</label>
+    <div class="input-group has-validation">
+      <span class="input-group-text" id="inputGroupPrepend">@</span>
+      <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+      <div class="invalid-feedback">
+        Please choose a username.
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label for="validationCustom03" class="form-label">City</label>
+    <input type="text" class="form-control" id="validationCustom03" required>
+    <div class="invalid-feedback">
+      Please provide a valid city.
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationCustom04" class="form-label">State</label>
+    <select class="form-select" id="validationCustom04" required>
+      <option selected disabled value="">Choose...</option>
+      <option>...</option>
+    </select>
+    <div class="invalid-feedback">
+      Please select a valid state.
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationCustom05" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="validationCustom05" required>
+    <div class="invalid-feedback">
+      Please provide a valid zip.
+    </div>
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</form></p>
+        <section id="contact">
+            <h2 style="text-align: center;"></h2>
+          <p style="text-align: center;"> you have any questions or inquiries, feel free to contact us:</p>
+          <p style="text-align: center;"><a href="mailto:random@gmail.com">Send Email </a>
+          <p style="text-align: center;"><a href="tel:+02-6750111">02-6750111</a></p>
+        </section>
+  </div>
+</body>
+
+</html> 
+

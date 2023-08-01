@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animals</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 0.5rem;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1rem;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .animal {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+
+    .animal img {
+      max-width: 150px;
+      margin-right: 1rem;
+    }
+
+    /* Added CSS colors */
+    #home {
+      background-color: #f9f9f9;
+      padding: 1rem;
+    }
+
+    #animals {
+      background-color: #fff3d9;
+      padding: 1rem;
+    }
+
+    #about {
+      background-color: #cfe2f3;
+      padding: 1rem;
+    }
+
+    #contact {
+      background-color: #d9f9e0;
+      padding: 1rem;
+    }
+  </style>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+
+<body>
+  <header>
+    <br>
+    <h1 class="animate__animated animate__heartBeat animate__repeat-3">Animals</h1>
+<br>
+  </header>
+
+  <nav>
+    <a href="index.html">Homepage</a>
+    <a href="animals.html">Animals</a>
+    <a href="pettingsection.html">Petting Section</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section id="home">
+      <h2 style="text-align: center;"> Animals in our zoo!</h2>
+    <p style="text-align: center;"> animals from all over the world!</p>
+    <div class="card-group">
+      <div class="card">
+        <img src="racoon.jpg" width="250" height="250" class="card-img-top" alt="racoon">
+        <div class="card-body">
+          <h5 class="card-title">Racoon</h5>
+          <p class="card-text">The raccoon, also spelled racoon and sometimes called the common raccoon to distinguish it from other species, is a mammal native to North America. It is the largest of the procyonid family, having a body length of 40 to 70 cm, and a body weight of 5 to 26 kg.</p>
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="panda.jpg" width="250" height="250" class="card-img-top" alt="panda">
+        <div class="card-body">
+          <h5 class="card-title">Panda</h5>
+          <p class="card-text">The giant panda is a bear species endemic to China. It is characterised by its bold black-and-white coat and rotund body. The name "giant panda" is sometimes used to distinguish it from the red panda, a neighboring musteloid.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="lizard.jpg" width="250" height="250" class="card-img-top" alt="lizard">
+        <div class="card-body">
+          <h5 class="card-title">Lizard</h5>
+          <p class="card-text">Lizards are a widespread group of squamate reptiles, with over 7,000 species, ranging across all continents except Antarctica, as well as most oceanic island chains.</p>
+        </div>
+      </div>
+    </div>
+      <br>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="elephant.jpg" class="d-block w-100" alt="elephant">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>The Elephant</h5>
+              <p>The biggest mamal on the world</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="tiger.jpeg" class="d-block w-100" alt="tiger">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>The Tiger</h5>
+              <p>The biggest cat</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="lizard.jpg" class="d-block w-100" alt="lizard">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>The Lizard</h5>
+              <p>One of the oldest creatures on earth</p>
+            </div>
+          </div>
+        </div>
+        <div>
+      
+
+    
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+ 
+       
+ 
+      
+
+      <section id="contact">
+        <h2 style="text-align: center;"></h2>
+      <p style="text-align: center;"> you have any questions or inquiries, feel free to contact us:</p>
+      <p style="text-align: center;"><a href="mailto:random@gmail.com">Send Email </a>
+      <p style="text-align: center;"><a href="tel:+02-6750111">02-6750111</a></p>
+    </section>
+  </div>
+</body>
+
+</html> 
+
